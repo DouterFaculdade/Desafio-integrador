@@ -66,6 +66,6 @@
 }
 {
     "scripts": {
-      "build": "[laravel] build --output public"
+      "build": "[vite] build --output public"
     }
   }
