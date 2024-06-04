@@ -64,3 +64,8 @@
     "minimum-stability": "stable",
     "prefer-stable": true
 }
+{
+    "scripts": {
+      "build": "[laravel] build --output public"
+    }
+  }
