@@ -9,6 +9,12 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'public'
+        outDir: 'dist',
+        rollupOptions: {
+            input: {
+                main: 'resources/js/app.js',
+                style: 'resources/css/app.css'
+            }
+        }
     }
 });
